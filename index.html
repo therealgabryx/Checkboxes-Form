@@ -1,0 +1,32 @@
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>JS Example</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <h1>Checkboxes Example</h1>
+
+    <p>Seleziona il mezzo di trasporto che utilizzi abitualmente:</p>
+
+    <form id="checkboxForm" name="checkboxForm" onsubmit="return checkTrasportType()">
+      <input type="checkBox" name="trasportType" value="Bicicletta" />
+      <label for="trasportType">Bicicletta</label><br />
+
+      <input type="checkBox" name="trasportType" value="Auto" />
+      <label for="trasportType">Auto</label><br />
+
+      <input type="checkBox" name="trasportType" value="Moto" />
+      <label for="trasportType">Moto</label><br /><br />
+
+      <input type="submit" name="invia" />
+    </form>
+  </div>
+</body>
+
+</html>
